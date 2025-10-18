@@ -1,9 +1,9 @@
-package com.hospital;  // ✅ Use your correct package name
+package com.klu.hospital;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = HospitalApplication.class)
+@SpringBootTest
 class HospitalApplicationTests {
 
     @Test
