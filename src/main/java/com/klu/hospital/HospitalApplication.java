@@ -1,13 +1,13 @@
-package com.klu.hospital;
+package com.hospital;  // ✅ Use your correct package name
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootApplication
-public class HospitalApplication {
+@SpringBootTest(classes = HospitalApplication.class)
+class HospitalApplicationTests {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HospitalApplication.class, args);
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
